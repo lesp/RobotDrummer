@@ -37,10 +37,12 @@ def drummer(channel, event):
     	explorerhat.motor.one.forward(100)
     	#We delay for a tenth of a second.
     	sleep(0.1)
+    	explorerhat.motor.one.backwards(100)
     	#Motor two turns on for 0.1s
     	explorerhat.motor.two.forward(100)
     	#We delay for a tenth of a second.
     	sleep(0.1)
+    	explorerhat.motor.two.backwards(100)
     	#We stop all of the motors
     	explorerhat.motor.stop()
     #We turn off the lights
